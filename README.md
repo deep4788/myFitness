@@ -1,16 +1,14 @@
-My Fitness Application
-======================
+My Fitness
+==========
+ 
+**[UNDER DEVELOPMENT]**
 
-A personal fitness tracker built using Electron (Node.js, JavaScript, HTML, and CSS).
+A personal fitness tracker; written using Electron and <http://electron.atom.io/>.
 
 Running Locally
 ---------------
+TODO
 ```sh
-# Install the dependencies
-$ npm install
-
-# Run the app
-$ npm start
 ```
 
 Screenshot
