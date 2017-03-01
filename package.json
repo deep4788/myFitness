@@ -6,7 +6,7 @@
     "author": "Deep Aggarwal <deep.uiuc@gmail.com>",
     "main": "app",
     "scripts": {
-        "package-osx": "electron-packager . --out=dist --overwrite --platform=darwin --arch=x64 --icon=resources/app-icons/stable/mfitness.icns && cp -r dist/MyFitness-darwin-x64/MyFitness.app /Applications",
+        "package-osx": "electron-packager . --out=dist --overwrite --platform=darwin --arch=x64 --icon=resources/app-icons/stable/myfitness.icns && cp -r dist/MyFitness-darwin-x64/MyFitness.app /Applications",
         "start": "electron app"
     },
     "repository": {

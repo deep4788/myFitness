@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+    background: #3D9970;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+}
+
+/* Startup page */
+.startup-page {
+    margin: auto;
+    text-align: center;
+}
+
+/* Startup page heading */
+.startup-page .app-heading {
+    font-size: 70px;
+    font-family: 'Amiko', sans-serif;
+    margin-top: 65px;
+    color: #34495E;
+}
+
+/* Startup page buttons */
+.startup-page .main-buttons {
+    margin-top: 135px;
+}
+
+button {
+    display: block;
+    font-size: 25px;
+    /*
+      TODO
+    */
+    font-family: "Slabo 27px", serif;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 125px;
+    height: 40px;
+    margin: 10px auto;
+    line-height: 40px;
+    transition: all 0.6s;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button:hover {
+    /*background: #AAA;*/
+    color: #AAA;
+    cursor: pointer;
+    /*opacity: 0.8;*/
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
