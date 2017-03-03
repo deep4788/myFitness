@@ -36,7 +36,7 @@ function createMainWindow() {
         resizable: false,
         maximizable: false,
         title: "MyFitness",
-        backgroundColor: "#3D9970"
+        backgroundColor: "#00A973"
     });
 
     //Load the index.html of the app
