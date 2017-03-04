@@ -4,7 +4,7 @@ MyFitness <span style="color: #03C9A9;">**[UNDER DEVELOPMENT]**</span>
 A personal fitness tracker; written using Electron and <http://electron.atom.io/>.
 
 <p align="center">
-    <img src="resources/images/mfAppImage_no_bg_shadow.png">
+    <img src="resources/images/mfAppImage_no_bg_shadow2.png">
 </p>
 
 ### Features
