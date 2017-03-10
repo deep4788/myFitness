@@ -3,5 +3,32 @@ header {
     text-align: center;
 }
 
+.input-section {
+    border-bottom: 1px solid #5D4037;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 25px;
+    font-family: 'Amiko', sans-serif;
+    font-weight: bolder;
+}
+
+.log-section {
+    width: 90%;
+    margin: 60px auto 0 auto;
+}
+
 .add-log-button {
+    margin: 20px auto;
+}
+
+.font-button:hover {
+    cursor: pointer;
+}
+
+.stat-name {
+    font-size: 25px;
+
 }
