@@ -3,32 +3,31 @@ header {
     text-align: center;
 }
 
-.section {
-}
-
 .log-section {
     width: 80%;
-    margin: 40px auto 0 auto;
+    margin: 30px auto 0 auto;
 }
 
 label {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Amiko', sans-serif;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
-/*
-.input-section {
-    border-bottom: 1px solid #5D4037;
-    margin-bottom: 15px;
+input[type=text] {
+    background: #bcaaa4;
+    border: 1px solid #bcaaa4;
+    color: #292C2F;
+    box-shadow: 1px 1px 0 #828181 inset;
+    font-size: 15px;
 }
 
-
-.add-log-button {
-    margin: 20px auto;
+input[type=text]:focus {
+    outline: none;
+    border: 1px solid #4e342e;
 }
 
-.font-button:hover {
-    cursor: pointer;
+.btn-operation, .btn-operation:hover {
+    background: #6d4c41;
+    border: 1px solid #6d4c41;
 }
-*/
