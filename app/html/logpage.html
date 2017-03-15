@@ -8,6 +8,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
         <link rel="stylesheet" href="../css/thirdparty/font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="../css/thirdparty/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/thirdparty/bootstrap-theme.min.css"/>
         <link rel="stylesheet" href="../css/common.css"/>
         <link rel="stylesheet" href="../css/logpage.css"/>
     </head>
@@ -17,35 +19,118 @@
         </header>
 
         <div class="container log-section">
-            <div class="input-section">
-                <label class="stat-name">Exercise</label>
-                <input type="text" id="exercise-name" placeholder="Exercise">
+            <div class="row section">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="exercise-name">Exercise</label>
+                        <input type="text"
+                            class="form-control"
+                            id="exercise-name">
+                    </div>
+                </div>
             </div>
 
-            <div class="input-section">
-                <label>Weight (lbs)</label>
-                <i class="fa fa-minus-square font-button" aria-hidden="true"></i>
-                <span class="">0</span>
-                <i class="fa fa-plus-square font-button" aria-hidden="true"></i>
+            <div class="row section">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="weight-lbs">Weight (lbs)</label>
+                        <input type="text"
+                            class="form-control"
+                            id="weight-lbs">
+                    </div>
+                </div>
             </div>
 
-            <div class="input-section">
-                <label>Reps</label>
-                <i class="fa fa-minus-square font-button" aria-hidden="true"></i>
-                <span class="">0</span>
-                <i class="fa fa-plus-square font-button" aria-hidden="true"></i>
+            <div class="row section">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="num-reps">Reps</label>
+                        <div class="input-group" id="num-reps">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </span>
+                            <input type="text"
+                                class="form-control text-center"
+                                value="0"
+                                min="0">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="input-section">
-                <label>Sets</label>
-                <i class="fa fa-minus-square font-button" aria-hidden="true"></i>
-                <span class="">0</span>
-                <i class="fa fa-plus-square font-button" aria-hidden="true"></i>
+            <div class="row section">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="num-sets">Sets</label>
+                        <div class="input-group" id="num-sets">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </span>
+                            <input type="text"
+                                class="form-control text-center"
+                                value="0"
+                                min="0">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="input-section">
-                <label>Time</label>
-                TODO
+            <div class="row">
+                <div class="col-md-12">
+                    <label>Time</label>
+                </div>
+            </div>
+            <div class="row section">
+                <div class="col-xs-4">
+                    <input type="text"
+                        class="form-control"
+                        id="time-hours">
+                </div>
+                <div class="col-xs-4">
+                    <input type="text"
+                        class="form-control"
+                        id="time-minutes">
+                </div>
+                <div class="col-xs-4">
+                    <input type="text"
+                        class="form-control"
+                        id="time-seconds">
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="distance-covered">Distance (miles)</label>
+                        <input type="text"
+                            class="form-control"
+                            id="distance-covered">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col-md-12 text-center">
+                    <button class="btn btn-default btn-lg clean-button nav-button"
+                        title="Add Workout"
+                        type="button">
+                        <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -53,6 +138,8 @@
             <button class="add-log-button" type="button">ADD</button>
         </footer>
 
+        <script>window.$ = window.jQuery = require("../js/thirdparty/jquery-3.1.1.min.js");</script>
+        <script src="../js/thirdparty/bootstrap.min.js"></script>
         <script src="../js/common.js"></script>
         <script src="../js/logpage.js"></script>
     </body>
