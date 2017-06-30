@@ -6,6 +6,6 @@
 const { remote } = require('electron')
 
 //TODO change this to use jQuery
-document.querySelector(".home-page-button").addEventListener("click", function() {
-    remote.getCurrentWindow().loadURL("file://" + __dirname + "/../index.html");
+document.querySelector('.home-page-button').addEventListener('click', function() {
+    remote.getCurrentWindow().loadURL('file://' + __dirname + '/../index.html');
 });
